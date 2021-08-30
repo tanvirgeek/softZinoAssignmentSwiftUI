@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB19620926DCE23100A4E7B2 /* AddOpeningHourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19620826DCE23100A4E7B2 /* AddOpeningHourView.swift */; };
+		EB19620C26DCE3C300A4E7B2 /* AddOpeningHourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19620B26DCE3C300A4E7B2 /* AddOpeningHourViewModel.swift */; };
 		EB4BC38B26DC84E40073B4DB /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BC38A26DC84E40073B4DB /* StoreDetailView.swift */; };
 		EB4BC38F26DC88550073B4DB /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BC38E26DC88550073B4DB /* ImageLoader.swift */; };
 		EB4BC39426DC8B080073B4DB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EB4BC39326DC8B080073B4DB /* Kingfisher */; };
 		EB4BC39726DC8C2F0073B4DB /* StoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BC39626DC8C2F0073B4DB /* StoreCard.swift */; };
+		EB4CD02A26DCFD6900F9AA51 /* AddReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CD02926DCFD6900F9AA51 /* AddReviewView.swift */; };
+		EB4CD02D26DCFEA400F9AA51 /* AddReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CD02C26DCFEA400F9AA51 /* AddReviewViewModel.swift */; };
 		EB58EB7F26DA4AD900060CD0 /* LocalFileServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58EB7E26DA4AD900060CD0 /* LocalFileServices.swift */; };
 		EB58EB8626DA4CCC00060CD0 /* StoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58EB8526DA4CCC00060CD0 /* StoresViewModel.swift */; };
 		EB58EB8926DA522700060CD0 /* StoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58EB8826DA522700060CD0 /* StoresView.swift */; };
@@ -23,9 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB19620826DCE23100A4E7B2 /* AddOpeningHourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOpeningHourView.swift; sourceTree = "<group>"; };
+		EB19620B26DCE3C300A4E7B2 /* AddOpeningHourViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOpeningHourViewModel.swift; sourceTree = "<group>"; };
 		EB4BC38A26DC84E40073B4DB /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
 		EB4BC38E26DC88550073B4DB /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		EB4BC39626DC8C2F0073B4DB /* StoreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCard.swift; sourceTree = "<group>"; };
+		EB4CD02926DCFD6900F9AA51 /* AddReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewView.swift; sourceTree = "<group>"; };
+		EB4CD02C26DCFEA400F9AA51 /* AddReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewModel.swift; sourceTree = "<group>"; };
 		EB58EB7E26DA4AD900060CD0 /* LocalFileServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileServices.swift; sourceTree = "<group>"; };
 		EB58EB8526DA4CCC00060CD0 /* StoresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresViewModel.swift; sourceTree = "<group>"; };
 		EB58EB8826DA522700060CD0 /* StoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresView.swift; sourceTree = "<group>"; };
@@ -115,6 +123,8 @@
 				EB58EB8826DA522700060CD0 /* StoresView.swift */,
 				EB4BC38A26DC84E40073B4DB /* StoreDetailView.swift */,
 				EB4BC39626DC8C2F0073B4DB /* StoreCard.swift */,
+				EB19620826DCE23100A4E7B2 /* AddOpeningHourView.swift */,
+				EB4CD02926DCFD6900F9AA51 /* AddReviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				EB58EB8526DA4CCC00060CD0 /* StoresViewModel.swift */,
+				EB19620B26DCE3C300A4E7B2 /* AddOpeningHourViewModel.swift */,
+				EB4CD02C26DCFEA400F9AA51 /* AddReviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -212,13 +224,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4BC38B26DC84E40073B4DB /* StoreDetailView.swift in Sources */,
+				EB19620C26DCE3C300A4E7B2 /* AddOpeningHourViewModel.swift in Sources */,
 				EB58EB8926DA522700060CD0 /* StoresView.swift in Sources */,
 				EB4BC39726DC8C2F0073B4DB /* StoreCard.swift in Sources */,
 				EB7B0EA626D9C5DB00883BCE /* ListModel.swift in Sources */,
 				EB58EB7F26DA4AD900060CD0 /* LocalFileServices.swift in Sources */,
 				EB58EB8626DA4CCC00060CD0 /* StoresViewModel.swift in Sources */,
 				EB7B0E9126D9C39600883BCE /* ContentView.swift in Sources */,
+				EB4CD02A26DCFD6900F9AA51 /* AddReviewView.swift in Sources */,
+				EB19620926DCE23100A4E7B2 /* AddOpeningHourView.swift in Sources */,
 				EB4BC38F26DC88550073B4DB /* ImageLoader.swift in Sources */,
+				EB4CD02D26DCFEA400F9AA51 /* AddReviewViewModel.swift in Sources */,
 				EB7B0E8F26D9C39600883BCE /* SwiftUI_Assignment_Softzino_TanvirApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

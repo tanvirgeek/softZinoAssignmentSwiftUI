@@ -11,16 +11,20 @@ import Kingfisher
 struct StoresView: View {
     @StateObject private var storesVM = StoresViewModel()
     var body: some View {
-
-        List{
-            ForEach(storesVM.stores){ store in
-                VStack{
-                    NavigationLink(destination: StoreDetailView(store: store)) {
-                        StoreCard(store: store)
+        if storesVM.stores.count == 0{
+            ProgressView()
+        }else{
+            List{
+                ForEach(storesVM.stores){ store in
+                    LazyVStack{
+                        NavigationLink(destination: StoreDetailView(store: store)) {
+                            StoreCard(store: store)
+                        }
                     }
                 }
-            }
-        }.navigationTitle("Apple Stores")
+            }.navigationTitle("Apple Stores")
+        }
+        
     }
 }
 

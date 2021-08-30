@@ -15,9 +15,10 @@ struct StoreCard: View {
             KFImage(URL(string: store.storeImageURL))
                 .resizable()
                 .frame(width: 128, height: 128)
+                
                     
-            VStack{
-                Text(store.storeName + "-" + store.addressLine)
+            VStack(alignment:.leading){
+                Text(store.storeName + "-" + store.storeNo)
                 Text(store.cityName + "," + store.countryName)
                 Text("\(String(describing: store.geoCode))" + "," + store.shoppingCenterName)
             }
